@@ -1,6 +1,7 @@
 package paquetegit;
 
 public class Empleado {
+
 	private String dni;
 	private String nombre;
 	private String apellidos;
@@ -8,6 +9,16 @@ public class Empleado {
 	private float sueldo;
 	private boolean hijos;
 	
-	
+	/////Constructores////
+	public Empleado(String dni, String nombre, String apellidos, byte edad, float sueldo, boolean hijos) {
+		super();
+		this.dni = dni;
+		this.nombre = nombre;
+		this.apellidos = apellidos;
+		this.edad = edad;
+		this.sueldo = sueldo;
+		this.hijos = hijos;
+	}
 	
 }
+
